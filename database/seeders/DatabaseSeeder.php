@@ -11,6 +11,8 @@ use Database\Seeders\ContentSeeder;
 use Database\Seeders\QuestionSeeder;
 use Database\Seeders\RecommendationSeeder;
 use Database\Seeders\TestAttemptSeeder;
+use Database\Seeders\FeedbackQuestionSeeder;
+use Database\Seeders\FeedbackAnswerSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -27,6 +29,8 @@ class DatabaseSeeder extends Seeder
             QuestionSeeder::class,
             RecommendationSeeder::class,
             TestAttemptSeeder::class,
+            FeedbackQuestionSeeder::class,
+            FeedbackAnswerSeeder::class,
         ]);
 
         // User::factory()->create([
